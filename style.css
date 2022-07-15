@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #00aeff;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.row{
+    flex: 1;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+.col-12{
+    width: 100%;
+    text-align: center;
+}
+.intro{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.intro>h1{
+    margin: 0;
+    color: white;
+    text-shadow: 1px 1px 4px black;
+    font-size: 55px;
+    text-transform: uppercase;
+}
+.helptext{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.first{
+    color:red
+}
+.second{
+    color:darkblue;
+}
+.third{
+    color:rgb(72, 72, 72);
+}
+#userinput{
+    padding:10px 20px;
+    font-size:26px;
+    border-radius: 5px;
+    border:0;
+}
+.btn{
+    background-color: darkcyan;
+    padding: 10px 20px;
+    font-size: 26px;
+    border:0;
+    border-radius: 5px;
+}
+
+.listItems{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.lists{
+    list-style: none;
+    margin-left: -1em;
+    padding-left: -1em;
+}
+.lists>li{
+    font-family: sans-serif;
+    font-size: 22px;
+    width: 350px;
+    border:1px solid darkcyan;
+    margin-top: 10px;
+    text-align: left;
+    padding:10px 30px;
+    background-color: cyan;
+    transition: all 0.75s ease;
+}
+.lists>.item:hover{
+    background-color: darkcyan;
+    color:white;
+}
+.right{
+    float: right;
+    color:red;
+}
